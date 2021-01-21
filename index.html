@@ -4,95 +4,64 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie-edge">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <title>Sudhanshu Mishra</title>
-
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Nixie+One');
-        @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
-
-        body {
-            background-color: #2ab7ca;
-            font-family: 'Raleway', sans-serif;
-        }
-
-        .wrapper {
-            max-width: 35rem;
-            margin: auto;
-        }
-
-        img {
-            max-width: 60%;
-            align-items: center;
-        }
-
-        footer {
-            
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            margin: 0 auto;
-            padding: 7px 15px;
-
-            background: #1e1f26;
-            color: #FFF;
-            font-size: 1em;
-        }
-
-        footer a {
-            font-size: 1em;
-            color: #FFF;
-        }
-
-        footer p {
-            margin: 10px auto;
-            max-width: 1280px;
-            box-sizing: border-box;
-            text-align: center;
-        }
-    </style>
-
-    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel = "icon" href =  
+    "photo.jpeg" 
+            type = "image/x-icon">
+   
 </head>
 
 <body>
-    <div class="wrapper">
-        <img src="https://image.flaticon.com/icons/svg/912/912316.svg">
-
-        <header>
-            <h1> Hello guys! <br> My name is Sudhanshu Mishra.</h1>
-        </header>
-        <main>
-            <section>
-                <h3>This is my personal webpage. I am competitive lover. I was born in Lucknow on 05/07/2000.
-                    I did my schooling from Rani Laxmi Bai Memorial School. <br> Currently studying at  IIIT Vadodara(Gandhinagar campus)
-                    </h3>
-            </section>
-            <section>
-                <h2>Skills</h2>
-                <p><b>My skills</b>
-                    <ul>
-                        <li>C++</li>
-                        <li>C</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                    </ul>
-                </p>
-                <aside>
-                    <h3>Achievements</h3>
-                    <ul>
-                        <li>High School-X CGPA (with 2 star upgrade)</li>
-                        <li>Intermediate-89.20 percentage</li>
-                        <li>Becoming friends with Aman Raj and Jatin Chauhan</li>
-                    </ul>
-                </aside>
-        </main>
-    </div> <br><br><br>
-    <footer role='contentinfo'>
-        <p>
-            &copy; Made with ❤ by me and my friend <a href='https://github.com/AmanRaj1608/'> AmanRaj1608</a>
-        </p>
-    </footer>
+    <div id="nav">
+        <div id="column1">
+            <img src="photo.jpeg" id="photo">
+        </div>
+        <div id="column2">
+            <p class="text" id="line1">Hi this is Sudhanshu Mishra</p>
+            <p class="text" id="line2">I am a CS undergraduate at IIIT Vadodara💻, I am a full stack(hehe fumnny) web developer and a
+                competitive programmer</p>
+        </div>
+    </div>
+    <div id="grid-container">
+        <div class="box three" id="skills">
+            <p class="heading">Skills</p>
+            <p class="subheading">HTML</p>
+            <p class="subheading">CSS</p>
+            <p class="subheading">Javascript</p>
+            <p class="subheading">C++</p>
+            <p class="subheading">C</p>
+            <p class="subheading">Node Js</p>
+            <p class="subheading">Java(familiar)</p>
+            <p class="subheading">Python(familiar)</p>
+            <p class="subheading">Some more in progress...</p>
+        </div>
+        <div class="box three"  id="achievements">
+            <p class="heading">Achievements</p>
+            <p class="subheading">Codechef max rating 1721</p>
+            <p class="subheading">Codeforces max rating 1407</p>
+            <p class="subheading">Solved more than 100 problems combined</p>
+            <p class="subheading">Category winner in HackIIITV 2018</p>
+            <p class="subheading">Rank 1 in an unrated contest on codechef</p>
+            <p class="subheading">Still achieveing...</p>
+        </div>
+        <div class="box three" id="contacts">
+            <p class="heading">Handles/Contacts</p>
+            <a href="https://www.linkedin.com/in/sudhanshu-mishra-34a429166/" target = "_blank" class="fa fa-linkedin"><img src = "linkedin.svg"></a>
+            <a href="https://github.com/donOO7" target="_blank" class="fa fa-github"> <img src = "github.svg"> </a>
+            <a href="https://www.codechef.com/users/smishra007123" target="_blank" class="fa fa-codechef"> <img src="cc.jpg"> </a>
+            <a href="https://codeforces.com/profile/GOd_Mod" target="_blank" class="fa fa-codeforces"> <img src="cf.png"> </a>
+            
+            <a href="https://www.instagram.com/smishra007123/" target = "_blank" class="fa fa-instagram"><img src = "insta.svg"></a>
+        </div>
+        <div class="box" id="bulb">
+            <img src="off bulb.png" id="off-bulb">
+        </div>
+    </div>
+    <div id="footer">
+        <p>Abhi itna hi aata hai , baaki baad me banayanege</p>
+    </div>
+    <script src="app.js"></script>
 </body>
 
 </html>
