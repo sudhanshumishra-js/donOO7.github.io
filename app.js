@@ -4,6 +4,7 @@ btn.onclick = function(){
     if(count>=5) 
     {
         alert("Khel nhi chal rha hai bhai"); 
+        count = 0;
     }
     if(count%2==0) 
     {
